@@ -3,7 +3,7 @@ type ButtonProps={
     type:'button'|'submit';
     title:string;
     icon?:string;
-    variant:'btn_dark_green'
+    variant:'btn_primary'
 }
 
 import React from 'react'
