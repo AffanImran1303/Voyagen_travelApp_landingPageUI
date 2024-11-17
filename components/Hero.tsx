@@ -16,9 +16,9 @@ const Hero = () => {
         className="absolute left-[-5px] w-10 lg:w-[50px]"
         /> */}
         <h1 className="bold-52 lg:bold-88">Voyagen, Your Travel Partner</h1>
-        <p className="regular-16 mt-8 text-gray-30 xl:max-w-[520px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, recusandae?</p>
+        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, recusandae?</p>
         <div className="my-11 flex flex-wrap gap-5">
-          <div className="flex items-center gap">
+          <div className="flex items-center gap-2">
             {Array(5).fill(1).map((_,index)=>(
               <Image
               src="/images/icons8-star-96.png"
@@ -45,8 +45,24 @@ const Hero = () => {
           />
         </div>
       </div>
+      {/* <div className="">
+        <Image
+          src="/images/pexels-pamanjoe-20727646.jpg"
+          alt=""
+          height={100}
+          width={300}
+          className="absolute right-96 rounded-xl"
+        />
+        <Image
+        src="/images/pexels-shvetsa-3943880.jpg"
+        alt=""
+        height={100}
+        width={360}
+        className="absolute right-12 bottom-2 rounded-xl"/>
+
+      </div> */}
       <div className="relative flex flex-1 items-start">
-        <div className="relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-[#20302c] px-7 py-8">
+        <div className="relative z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-[#20302c] px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regular-16 text-[#F5F5F5]">Location</p>
@@ -54,7 +70,7 @@ const Hero = () => {
             </div>
             <p className="bold-20 text-white">Karachi, Sindh, Pakistan</p>
           </div>
-            <div className="flexBetween mt-4">
+            <div className="flexBetween">
               <div className="flex flex-col">
                 <p className="regular-16 block text-[#F5F5F5]">Distance</p>
                 <p className="bold-20 text-white">100 mi</p>
