@@ -10,8 +10,8 @@ export default function Home() {
     <>
     <Hero/>
     <Travel/>
-    <Features/>
     <Guide/>
+    <Features/>
     <GetApp/>
     </>
   );
