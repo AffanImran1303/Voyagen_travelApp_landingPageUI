@@ -51,7 +51,7 @@ export const PEOPLE_URL = [
     {
       title: 'Learn More',
       links: [
-        'About Hilink',
+        'About Voyagen',
         'Press Releases',
         'Environment',
         'Jobs',
@@ -61,25 +61,24 @@ export const PEOPLE_URL = [
     },
     {
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['TravelForYou', 'VoyageAndYou', 'VoyageWithUs'],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Admin Office', value: 'Main Street, XYZ' },
+      { label: 'Email Officer', value: 'voyagen@jimmyjames.com' },
     ],
   };
   
   export const SOCIALS = {
     title: 'Social',
     links: [
-      '/facebook.svg',
-      '/instagram.svg',
-      '/twitter.svg',
-      '/youtube.svg',
-      '/wordpress.svg',
+      '/images/icons8-facebook-60.png',
+      '/images/icons8-instagram-96.png',
+      '/images/icons8-x-60.png',
+      '/images/icons8-youtube-60.png',
     ],
   };
