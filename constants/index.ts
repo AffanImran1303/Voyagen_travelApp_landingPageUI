@@ -17,32 +17,32 @@ export const PEOPLE_URL = [
   // FEATURES SECTION
   export const FEATURES = [
     {
-      title: 'Real maps can be offline',
+      title: 'Your World, Offline.',
       icon: '/images/icons8-map-96.png',
       variant: 'feature-badge',
       description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+        "Never get lost, even in the remotest corners of the world. Our offline maps ensure you're always on track."
     },
     {
       title: 'Set an adventure schedule',
       icon: '/images/icons8-calendar-96.png',
       variant: 'green',
       description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+        "Create custom itineraries, discover hidden gems, and book effortlessly. With Voyagen, every journey is an adventure."
     },
     {
-      title: 'Technology using augment reality',
+      title: 'Adventure, Reimagined.',
       icon: '/images/icons8-virtual-reality-96.png',
       variant: 'green',
       description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+        'Explore new horizons with confidence. Our cutting-edge technology, including augmented reality, enhances your travel experience.'
     },
     {
-      title: 'Many new locations every month',
+      title: 'Never Stop Exploring.',
       icon: '/images/icons8-location-96.png',
       variant: 'orange',
       description:
-        'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+        "We're constantly expanding our map of the world. Explore new destinations and unique experiences every month.",
     },
   ];
   

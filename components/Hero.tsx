@@ -16,7 +16,10 @@ const Hero = () => {
         className="absolute left-[-5px] w-10 lg:w-[50px]"
         /> */}
         <h1 className="bold-52 lg:bold-88">Voyagen, Your Travel Partner</h1>
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, recusandae?</p>
+        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">Seamless travel, personalized journeys. Discover your next adventure with Voyagen.
+
+
+</p>
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
             {Array(5).fill(1).map((_,index)=>(
@@ -68,7 +71,7 @@ const Hero = () => {
               <p className="regular-16 text-[#F5F5F5]">Location</p>
               <Image src="/images/icons8-close-24.png" alt="close" width={24} height={24}/>
             </div>
-            <p className="bold-20 text-white">Karachi, Sindh, Pakistan</p>
+            <p className="bold-20 text-white">Bali, Indonesia</p>
           </div>
             <div className="flexBetween">
               <div className="flex flex-col">
